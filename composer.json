@@ -1,0 +1,33 @@
+{
+  "name": "lozemc/laravel-services",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "Simple command to create Service class in Laravel",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "service",
+    "services",
+    "command",
+    "commands"
+  ],
+  "homepage": "https://github.com/lozemc/",
+  "authors": [
+    {
+      "name": "Lozemc",
+      "email": "lozemc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\Console\\Commands\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2"
+  },
+  "config": {
+    "platform-check": false,
+    "optimize-autoloader": true
+  }
+}
