@@ -1,7 +1,7 @@
 {
   "name": "lozemc/laravel-services",
   "type": "library",
-  "version": "1.0.0",
+  "version": "10.0",
   "description": "Simple command to create Service class in Laravel",
   "license": "MIT",
   "keywords": [
@@ -24,7 +24,8 @@
     }
   },
   "require": {
-    "php": ">=8.2"
+    "php": ">=8.2",
+    "laravel/framework": "^10.0"
   },
   "config": {
     "platform-check": false,
