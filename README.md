@@ -32,7 +32,7 @@ return [
 
     // ...
 
-    Lozemc\Actions\Providers\MakeServiceProvider::class,
+    Lozemc\Services\Providers\MakeServiceProvider::class,
 ];
 ```
 <br>
