@@ -8,8 +8,10 @@ via [Composer](https://packagist.org/packages/lozemc/laravel-services):
 ```bash
 composer require lozemc/laravel-services
 ```
+<br><br>
+### Installation for Laravel 10.x
 
-Next, add the following line to the $commands array in your `/App/Console/Kernel.php` file:
+Next, add the following line to the $commands array in your `/app/Console/Kernel.php` file:
 
 ```php
 protected $commands = [
@@ -21,6 +23,19 @@ protected $commands = [
 ```
 
 If the protected $commands array does not exist, you will need to add it.
+<br><br><br>
+### Installation for Laravel 11.x
+
+Then add the following line to the returned array in `/bootstrap/providers.php`:
+```php
+return [
+
+    // ...
+
+    Lozemc\Actions\Providers\MakeServiceProvider::class,
+];
+```
+<br>
 
 ## Usage
 

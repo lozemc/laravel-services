@@ -1,7 +1,7 @@
 {
   "name": "lozemc/laravel-services",
   "type": "library",
-  "version": "10.0",
+  "version": "11.0",
   "description": "Simple command to create Service class in Laravel",
   "license": "MIT",
   "keywords": [
@@ -20,12 +20,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\Console\\Commands\\": "src/"
+      "Lozemc\\Services\\": "src/"
     }
   },
   "require": {
-    "php": ">=8.2",
-    "laravel/framework": "^10.0"
+    "php": "^8.2|^8.3",
+    "laravel/framework": "^11.0"
   },
   "config": {
     "platform-check": false,
